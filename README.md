@@ -9,13 +9,13 @@ This document outlines key changes and input requirements for the SAP Build Pari
 ### Create Project
 
 #### Step 6: Ensure Correct Input Formatting
-Make sure your **project name** and **dev space** contain only lowercase characters. Refer to the table below for correct values:
+Ensure your **project name** and **dev space** contain only lowercase characters. Use the table below for reference:
 
-| **Input Field**  | **Technical Academy Input Value**               | **Correct Input Value**           |
-|-------------------|-----------------------------------------------|------------------------------------|
-| Project Name      | `Customer_Loyal_AC132074U01`                 | `customer_loyal_ac132074u01`      |
-| Description       | `Customer Loyalty Program Model and Services AC132074U01` | No change                         |
-| Dev Space         | `AC132074U01`                                | `ac132074u01`                     |
+| **Input Field**   | **Technical Academy Input Value**               | **Correct Input Value**           |
+|--------------------|-----------------------------------------------|------------------------------------|
+| Project Name       | `Customer_Loyal_AC132074U01`                 | `customer_loyal_ac132074u01`      |
+| Description        | `Customer Loyalty Program Model and Services AC132074U01` | No change                         |
+| Dev Space          | `AC132074U01`                                | `ac132074u01`                     |
 
 ---
 
@@ -24,13 +24,23 @@ Make sure your **project name** and **dev space** contain only lowercase charact
 ### Deployment
 
 #### Step 1: Additional Prompts
-After completing **Step 1**, you may encounter additional prompts. Please enter the following values as specified:
+After completing **Step 1**, you may encounter additional prompts. Enter the following values as specified:
 
-- **UI5 Version:** → `1.130.0`  
-- **UI Theme:** → `sap_horizon`  
-- **Vendor Dependency:** → `No`  
-- **Build Code Services Plan:** → `No`  
+- **UI5 Version:** `1.130.0`  
+- **UI Theme:** `sap_horizon`  
+- **Vendor Dependency:** `No`  
+- **Build Code Services Plan:** `No`  
 
 ---
 
-Ensure all inputs adhere to these guidelines to avoid errors during project setup and deployment.
+## SAP Build Apps
+
+### Authentication and Data Integration
+
+#### Step 4: Navigate to the Integration Tab
+Instead of using the **Data Tab**, navigate to the **Integration Tab**.
+
+#### Step 6: Use Correct BTP Destination
+Search for the destination name using only lowercase characters as specified previously.
+
+---
